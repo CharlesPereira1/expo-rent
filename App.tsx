@@ -22,9 +22,8 @@ export default function App() {
   }
 
   return (
-    <View>
-      <Text>Expo-Rent</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <StatusBar style="light" backgroundColor="#000" translucent={false} />
+    </>
   );
 }
