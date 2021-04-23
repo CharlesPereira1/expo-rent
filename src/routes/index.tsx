@@ -26,7 +26,19 @@ const routes: React.FC = () => {
           name="home"
           component={Home}
         />
-        <Stack.Screen name="detail" component={Detail} />
+        <Stack.Screen
+          options={{
+            title: "ALUGUE",
+            headerTitleStyle: { fontFamily: "Montserrat_700Bold" },
+            headerRight: () => (
+              <TouchableOpacity style={{ marginRight: 15 }}>
+                <Feather name="shopping-bag" size={24} color="#000" />
+              </TouchableOpacity>
+            ),
+          }}
+          name="detail"
+          component={Detail}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
