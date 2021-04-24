@@ -13,7 +13,7 @@ const Home: React.FC = () => {
     >
       <View style={styles.header}>
         <View style={styles.inputArea}>
-          <Feather size={24} color="#000" />
+          <Feather name="search" size={24} color="#000" />
           <TextInput
             placeholder="O que está procurando?"
             style={styles.input}
