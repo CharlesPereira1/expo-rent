@@ -28,7 +28,7 @@ const routes: React.FC = () => {
         />
         <Stack.Screen
           options={{
-            title: "ALUGUE",
+            title: "DETALHE",
             headerTitleStyle: { fontFamily: "Montserrat_700Bold" },
             headerRight: () => (
               <TouchableOpacity style={{ marginRight: 15 }}>
