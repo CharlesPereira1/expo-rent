@@ -3,6 +3,8 @@ import { Text, View } from "react-native";
 import { ScrollView, TextInput } from "react-native-gesture-handler";
 import { Feather } from "@expo/vector-icons";
 
+import New from "../../components/New";
+
 import house1 from "../../assets/house1.jpg";
 
 import { styles } from "./styles";
