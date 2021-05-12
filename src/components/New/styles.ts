@@ -40,4 +40,6 @@ export const styles = StyleSheet.create({
     fontSize: 9,
     fontFamily: "Montserrat_700Bold",
   },
+  footer: {},
+  price: {},
 });

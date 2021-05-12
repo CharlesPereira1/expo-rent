@@ -27,7 +27,14 @@ const New: React.FC<NewProps> = ({ cover, name, description, ...rest }) => {
 
         <Text style={styles.badge}>Novo</Text>
       </View>
+
       <Text style={styles.badge}>{description}</Text>
+
+      <View style={styles.footer}>
+        <View style={{ width: "80%" }}>
+          <Text style={styles.price}>R$ 1.204,85</Text>
+        </View>
+      </View>
     </TouchableOpacity>
   );
 };
