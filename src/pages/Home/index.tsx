@@ -3,6 +3,8 @@ import { Text, View } from "react-native";
 import { ScrollView, TextInput } from "react-native-gesture-handler";
 import { Feather } from "@expo/vector-icons";
 
+import house1 from "../../assets/house1.jpg";
+
 import { styles } from "./styles";
 
 const Home: React.FC = () => {
@@ -29,7 +31,13 @@ const Home: React.FC = () => {
         horizontal
         showsHorizontalScrollIndicator={false}
         style={{ paddingHorizontal: 15 }}
-      ></ScrollView>
+      >
+        <New
+          cover={house1}
+          name="Casa na praia"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        />
+      </ScrollView>
     </ScrollView>
   );
 };
