@@ -20,6 +20,16 @@ const Home: React.FC = () => {
           />
         </View>
       </View>
+
+      <View style={styles.contentNew}>
+        <Text style={styles.title}>Novidades</Text>
+      </View>
+
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        style={{ paddingHorizontal: 15 }}
+      ></ScrollView>
     </ScrollView>
   );
 };

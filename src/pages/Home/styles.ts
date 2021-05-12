@@ -26,4 +26,15 @@ export const styles = StyleSheet.create({
     fontSize: 13,
     width: "90%",
   },
+  contentNew: {
+    flexDirection: "row",
+    width: "100%",
+    alignItems: "center",
+  },
+  title: {
+    paddingHorizontal: 15,
+    fontFamily: "Montserrat_700Bold",
+    fontSize: 18,
+    color: "#4f4a4a",
+  },
 });
