@@ -18,4 +18,26 @@ export const styles = StyleSheet.create({
     height: 110,
     borderRadius: 10,
   },
+  content: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginVertical: 10,
+  },
+  title: {
+    fontFamily: "Montserrat_700Bold",
+    fontSize: 12,
+    color: "#4f4a4a",
+  },
+  dot: {
+    width: 4,
+    height: 4,
+    borderRadius: 4,
+    backgroundColor: "red",
+    marginHorizontal: 4,
+  },
+  badge: {
+    color: "red",
+    fontSize: 9,
+    fontFamily: "Montserrat_700Bold",
+  },
 });
