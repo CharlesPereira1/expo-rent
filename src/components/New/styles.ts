@@ -28,6 +28,11 @@ export const styles = StyleSheet.create({
     fontSize: 12,
     color: "#4f4a4a",
   },
+  dotContent: {
+    marginLeft: 10,
+    flexDirection: "row",
+    alignItems: "center",
+  },
   dot: {
     width: 4,
     height: 4,
@@ -40,6 +45,20 @@ export const styles = StyleSheet.create({
     fontSize: 9,
     fontFamily: "Montserrat_700Bold",
   },
-  footer: {},
-  price: {},
+  description: {
+    fontFamily: "Montserrat_400Regular",
+    fontSize: 9,
+    color: "#4f4a4a",
+  },
+  footer: {
+    width: "100%",
+    justifyContent: "space-between",
+    flexDirection: "row",
+    marginTop: 5,
+    alignItems: "center",
+  },
+  price: {
+    fontSize: 15,
+    fontFamily: "Montserrat_700Bold",
+  },
 });
