@@ -5,6 +5,7 @@ import { useNavigation } from "@react-navigation/native";
 import { Feather } from "@expo/vector-icons";
 
 import New from "../../components/New";
+import House from "../../components/House";
 
 import house1 from "../../assets/house1.jpg";
 import house2 from "../../assets/house2.jpg";
@@ -58,21 +59,22 @@ const Home: React.FC = () => {
           name="Casa na praia 3"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
         />
-        <New
-          cover={house4}
-          name="Casa na praia 4"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        />
-        <New
-          cover={house5}
-          name="Casa na praia 5"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        />
-        <New
-          cover={house6}
-          name="Casa na praia 6"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        />
+      </ScrollView>
+
+      <View
+        style={{ flexDirection: "row", marginBottom: 10, alignItems: "center" }}
+      >
+        <Text style={[styles.title, { marginTop: 20 }]}>Próximo de você</Text>
+      </View>
+
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        style={{ paddingHorizontal: 15 }}
+      >
+        <House cover={house4} />
+        <House cover={house5} />
+        <House cover={house6} />
       </ScrollView>
     </ScrollView>
   );
