@@ -36,7 +36,7 @@ const routes: React.FC = () => {
               </TouchableOpacity>
             ),
           }}
-          name="detail"
+          name="Detail"
           component={Detail}
         />
       </Stack.Navigator>
