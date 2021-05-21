@@ -6,6 +6,7 @@ import { Feather } from "@expo/vector-icons";
 
 import New from "../../components/New";
 import House from "../../components/House";
+import Recommended from "../../components/Recommended";
 
 import house1 from "../../assets/house1.jpg";
 import house2 from "../../assets/house2.jpg";
@@ -75,6 +76,18 @@ const Home: React.FC = () => {
         <House cover={house4} />
         <House cover={house5} />
         <House cover={house6} />
+      </ScrollView>
+
+      <Text style={[styles.title, { marginTop: 20 }]}>Dica do dia</Text>
+
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        style={{ paddingHorizontal: 15 }}
+      >
+        <Recommended image={house1} house="Casa Minas" offer="35%" />
+        <Recommended image={house2} house="Casa São Paulo" offer="25%" />
+        <Recommended image={house3} house="Casa Curitiba" offer="15%" />
       </ScrollView>
     </ScrollView>
   );
