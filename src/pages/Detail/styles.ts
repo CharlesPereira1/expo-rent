@@ -10,4 +10,7 @@ export const styles = StyleSheet.create({
     height: 340,
     width: "100%",
   },
+  headerContent: {},
+  rating: {},
+  myStarStyle: {},
 });

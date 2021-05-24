@@ -39,7 +39,7 @@ const Detail: React.FC = () => {
               }
               halfStar={
                 <Ionicons
-                  name="md-star-outline-half"
+                  name="md-star-half"
                   size={24}
                   style={styles.myStarStyle}
                 />
