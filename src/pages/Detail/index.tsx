@@ -17,7 +17,7 @@ const Detail: React.FC = () => {
 
       <View style={styles.headerContent}>
         <View style={{ width: "75%" }}>
-          <Text>Casa de praia</Text>
+          <Text style={styles.house}>Casa de praia</Text>
         </View>
         <View style={{ width: "35%" }}>
           <Text style={styles.rating}>Avaliações</Text>

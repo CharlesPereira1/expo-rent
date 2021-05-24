@@ -10,7 +10,18 @@ export const styles = StyleSheet.create({
     height: 340,
     width: "100%",
   },
-  headerContent: {},
+  headerContent: {
+    paddingHorizontal: 20,
+    flexDirection: "row",
+    alignItems: "center",
+    width: "100%",
+    marginTop: 20,
+  },
+  house: {
+    fontFamily: "Montserrat_700Bold",
+    fontSize: 18,
+    color: "#4f4a4a",
+  },
   rating: {},
   myStarStyle: {},
 });
